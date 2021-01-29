@@ -48,6 +48,10 @@ namespace PhonePe_CabManagement
                         contextViewObj = new ContextView(new BookCabView()); contextViewObj.ExecuteOrder();
                         break;
 
+                    case 7:
+                        contextViewObj = new ContextView(new CabHistoryView()); contextViewObj.ExecuteOrder();
+                        break;
+
                     default: break;
                 }
             }
